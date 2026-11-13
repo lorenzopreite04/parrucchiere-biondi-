@@ -1,0 +1,11 @@
+Caratteri tipografici del sito, scaricati da Google Fonts il 21 ottobre 2026 (solo le parti "latin" e "latin-ext").
+
+DM Serif Text (normale e corsivo)  ->  dm-serif-text-*.woff2
+Style Script                       ->  style-script-*.woff2
+
+Entrambi sono distribuiti con la licenza SIL Open Font License 1.1: si possono usare liberamente,
+anche su siti commerciali, purché non vengano venduti da soli.
+Testo della licenza: https://openfontlicense.org/open-font-license-official-text/
+Autori e licenza di ciascun carattere:
+  https://fonts.google.com/specimen/DM+Serif+Text/license
+  https://fonts.google.com/specimen/Style+Script/license

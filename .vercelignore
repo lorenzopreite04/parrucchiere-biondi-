@@ -1,0 +1,4 @@
+# Nel repository GitHub ma non pubblicati sul sito
+strumenti/
+.claude/
+.gitignore

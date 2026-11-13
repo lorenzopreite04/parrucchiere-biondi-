@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pagina non trovata — Biondi Parrucchieri</title>
+  <meta name="robots" content="noindex">
+  <!-- Pagina mostrata dall'hosting quando un indirizzo non esiste (la maggior parte degli hosting usa da sola un file 404.html
+       nella cartella principale). Percorsi che iniziano con "/": funzionano anche da indirizzi come /qualcosa/che/non/esiste -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- caratteri ospitati sul sito (vedi style.css): si precaricano i due usati subito -->
+  <link rel="preload" href="/assets/fonts/dm-serif-text-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/style-script-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+  <script>
+    (function () {
+      var t = 'giorno';
+      try { if (localStorage.getItem('biondi-tema') === 'notte') t = 'notte'; } catch (e) {}
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <link rel="stylesheet" href="/style.css?v=20261113k">
+</head>
+<body class="legal-page">
+  <header class="legal-bar">
+    <a class="legal-back" href="/"><i class="arrow" aria-hidden="true"></i><span>Torna al sito</span></a>
+    <a href="/" aria-label="Biondi Parrucchieri: home"><img src="/assets/logo-biondi.png" alt="Biondi Parrucchieri" width="225" height="134"></a>
+  </header>
+
+  <main class="notfound">
+    <p class="notfound__code" aria-hidden="true">404</p>
+    <p class="eyebrow">Pagina non trovata</p>
+    <h1>Questa pagina ha cambiato <em>look</em>.</h1>
+    <p class="notfound__lead">L'indirizzo che hai aperto non esiste o non è più disponibile. Dalla home trovi tutto: il salone, i trattamenti, il metodo Mounir e i contatti.</p>
+    <div class="notfound__actions">
+      <a class="btn" href="/">Torna alla home <span class="btn__ico" aria-hidden="true"><i class="arrow"></i></span></a>
+      <a class="notfound__link" href="tel:+393279545175">Chiamaci: +39 327 954 5175</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__bottom">
+      <p>© 2026 Biondi Parrucchieri di Biondi Emilio · P.IVA 02039140666 · Via Palermo 79/81, Pescara</p>
+      <nav class="footer__legal" aria-label="Note legali"><a href="/">Home</a><a href="/privacy.html">Privacy policy</a><a href="/cookie.html">Cookie policy</a></nav>
+    </div>
+  </footer>
+</body>
+</html>

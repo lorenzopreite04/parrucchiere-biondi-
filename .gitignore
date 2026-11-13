@@ -1,0 +1,21 @@
+# Server di prova e impostazioni locali (non fanno parte del sito)
+.claude/
+.vscode/
+.idea/
+
+# File di lavoro pesanti: restano su questo computer
+strumenti/video-originali/
+strumenti/originali/
+strumenti/controllo/
+
+# Vercel
+.vercel/
+
+# Segreti e file di sistema
+.env
+.env.*
+*.key
+*.pem
+Thumbs.db
+desktop.ini
+.DS_Store

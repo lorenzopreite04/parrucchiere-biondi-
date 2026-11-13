@@ -1,0 +1,34 @@
+<!doctype html>
+<!-- Modello dell'immagine di anteprima (WhatsApp, Facebook, Instagram, Google): 1200×630.
+     Si fotografa con il browser e si salva come assets/anteprima-social.jpg. -->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<style>@font-face { font-family: "DM Serif Text"; src: url(../../assets/fonts/dm-serif-text-latin.woff2) format("woff2"); } @font-face { font-family: "Style Script"; src: url(../../assets/fonts/style-script-latin.woff2) format("woff2"); }</style>
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    position: relative; font-family: 'DM Serif Text', Georgia, serif; color: #141210;
+    background: #fdfdfd;
+  }
+  .foto { position: absolute; inset: 0 0 0 auto; width: 760px; height: 630px; object-fit: cover; object-position: 78% 40%;
+          -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 34%); mask-image: linear-gradient(90deg, transparent 0, #000 34%); }
+  .testo { position: absolute; left: 64px; top: 0; bottom: 0; width: 560px; display: flex; flex-direction: column; justify-content: center; gap: 22px; }
+  .logo { width: 170px; height: auto; }
+  h1 { margin: 0; font-weight: 400; font-size: 68px; line-height: 1; letter-spacing: -.01em; }
+  h1 em { font-family: 'Style Script', cursive; font-style: normal; color: #a7813a; font-size: 96px; line-height: .8; }
+  .dove { font-family: Georgia, serif; font-size: 22px; letter-spacing: .16em; text-transform: uppercase; color: #a7813a; }
+  .badge { align-self: flex-start; padding: 10px 18px; border: 1.5px solid #c9a24f; border-radius: 999px;
+           font-family: Georgia, serif; font-size: 17px; letter-spacing: .14em; text-transform: uppercase; color: #6b5323; }
+</style>
+</head>
+<body>
+  <img class="foto" src="../../assets/hero-capelli.webp" alt="">
+  <div class="testo">
+    <img class="logo" src="../../assets/logo-biondi.png" alt="">
+    <h1>Il tuo trattamento,<br>la nostra <em>cura</em></h1>
+    <p class="dove" style="margin:0">Via Palermo 79/81 · Pescara</p>
+    <span class="badge">Exclusive Salon Mounir</span>
+  </div>
+</body>
+</html>

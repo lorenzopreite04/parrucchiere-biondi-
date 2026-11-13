@@ -1,0 +1,6 @@
+# Tutto il sito si può indicizzare.
+# DOMINIO DA CONFERMARE nella riga Sitemap (vedi index.html).
+User-agent: *
+Allow: /
+
+Sitemap: https://www.biondiparrucchieri.it/sitemap.xml
